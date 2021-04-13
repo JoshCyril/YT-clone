@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+/* Variables */
+:root {
+  /* colors */
+  --color-white: #fff;
+  --color-grey: #e5e5e5;
+  --color-greyBg: #f9f9f9;
+  --color-greyLigth: #e5e5e5a8;
+  --color-greyDark: #606060;
+  --color-red: #ff0000;
+
+  /* fonts weight and sizes */
+  --font-main: 14px;
+  --font-bold: 700;
+  --font-icons: 22px;
+
+  /* margins */
+  --margin-1: 10px;
+  --margin-2: 15px;
+  --margin-3: 20px;
+}
+
+/* universal Selector */
+/* Reset all the defaults */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-size: var(--font-main);
+}
+/* material icon font size */
+.material-icons.md-18 {
+  font-size: var(--font-icons);
+}
+/* Tag Selectors */
+body {
+  background-color: var(--color-white);
+}
+/* Class Selectors */
+.topBar {
+  margin-top: var(--margin-2);
+  margin-left: var(--margin-1);
+  margin-right: var(--margin-1);
+  height: 38px;
+  position: sticky;
+  top: 0;
+}
+
+.main-body {
+  margin-top: var(--margin-2);
+}
+.logo {
+  width: 80px;
+  margin-left: var(--margin-3);
+  margin-bottom: var(--margin-2);
+}
+
+.card-title {
+  font-size: var(--font-main);
+  font-weight: var(--font-bold);
+}
+.author {
+  border-radius: 50%;
+}
+.categoryList {
+  color: var(--color-greyDark);
+}
+
+.categoryList:hover {
+  background-color: var(--color-greyLigth);
+  cursor: pointer;
+  color: var(--color-greyDark);
+}
+
+.active {
+  background-color: var(--color-greyLigth);
+  font-weight: var(--font-bold);
+}
+.activeIcon {
+  color: var(--color-red);
+}
+
+.videoListings {
+  background-color: var(--color-greyBg);
+  min-height: calc(100vh - 70px);
+}
