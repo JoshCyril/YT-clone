@@ -32,15 +32,16 @@
     <div class="container-fluid">
       <div class="topBar">
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 mt-3">
             <i class="material-icons">menu</i>
             <img
               src="./assets/yt_logo_rgb_light.png"
               alt="yt-logo"
-              class="logo"
+              class='logo'
+              id='logo'
             />
           </div>
-          <div class="col-4">
+          <div class="col-4 mt-3">
             <form action="">
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search" />
@@ -52,20 +53,25 @@
               </div>
             </form>
           </div>
-          <div class="col-4 d-flex justify-content-end">
-            <button class="btn" type="button">
-              <i class="fa fa-moon-o"></i>
-              <i class="fa fa-sun-o"></i>
-            </button>
-            <button class="btn btn-outline-primary ml-4" type="button">
+          <div class="col-4 d-flex justify-content-end mt-3">
+            <!-- <button class="btn" type="button" id="modeToggle"> -->
+              <i class="material-icons mt-2" data-toggle="tooltip"
+              data-placement="bottom" title="Toggle Dark Mode / Light mode"
+              id="modeToggle">dark_mode</i>
+              <!-- <i class="fa fa-2x"></i> -->
+            <!-- </button> -->
+            <button class="btn btn-outline-primary ml-4" type="button" data-toggle="tooltip"
+            data-placement="bottom" title="Log In with Google">
               <i class="fa fa-user mr-1"></i> Sign In
             </button>
+            <button class="btn btn-outline-danger" id="signout-button" data-toggle="tooltip"
+            data-placement="bottom" title="Sign Out">Log Out<i class="fa fa-sign-out ml-1"></i></button>
           </div>
         </div>
       </div>
 
       <!-- ! main body content -->
-      <div class="main-body row">
+      <div class="main-body row mt-3">
         <!-- ! Left Nav Bar -->
         <div class="col-2 categories">
           <div class="row categoryList p-2 pl-4 active">
@@ -94,7 +100,7 @@
           <div class="row videoList m-3">
               <!-- elements here will be &dynamic-->
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-4">
-              <div class="card">
+              <div class="card bg-dark text-white">
                 <iframe
                   class="embed-responsive-item img-fluid"
                   src="//www.youtube.com/embed/48OJbbI0DfE"
@@ -119,11 +125,9 @@
             </div>
             <!-- 1st card end -->
 
-          <!-- row 1-->
-
-          <!-- row 2 -->
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

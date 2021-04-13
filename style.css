@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 /* Variables */
+.dark-theme {
+  --color-greyDark: #d5d5d5;
+  --color-greyLigth: #383838;
+  --color-greyBg: #181818;
+  --color-white: #202020;
+  --color-red: #fff;
+  --color-icon: #fff;
+}
 :root {
   /* colors */
   --color-white: #fff;
-  --color-grey: #e5e5e5;
   --color-greyBg: #f9f9f9;
   --color-greyLigth: #e5e5e5a8;
   --color-greyDark: #606060;
   --color-red: #ff0000;
+  --color-icon: #000;
 
   /* fonts weight and sizes */
   --font-main: 14px;
@@ -33,28 +41,33 @@
   font-size: var(--font-icons);
 }
 /* Tag Selectors */
-body {
+.container-fluid {
   background-color: var(--color-white);
 }
 /* Class Selectors */
 .topBar {
-  margin-top: var(--margin-2);
-  margin-left: var(--margin-1);
-  margin-right: var(--margin-1);
-  height: 38px;
+  /* padding-left: var(--margin-1);
+  padding-right: var(--margin-1); */
+  padding: 0px var(--margin-2);
+  height: 55px;
   position: sticky;
   top: 0;
+  background-color: var(--color-white);
+  color: var(--color-icon);
+  z-index: 5;
 }
 
 .main-body {
-  margin-top: var(--margin-2);
+  background-color: var(--color-white);
 }
 .logo {
   width: 80px;
   margin-left: var(--margin-3);
   margin-bottom: var(--margin-2);
 }
-
+.card {
+  background-color: var(--color-red);
+}
 .card-title {
   font-size: var(--font-main);
   font-weight: var(--font-bold);
@@ -83,4 +96,9 @@ body {
 .videoListings {
   background-color: var(--color-greyBg);
   min-height: calc(100vh - 70px);
+}
+
+/* id selector */
+#modeToggle {
+  cursor: pointer;
 }
