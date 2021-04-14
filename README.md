@@ -52,7 +52,7 @@ Desktop version
 ![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview5.png)
 
 
-Table version
+Tablet version
 
 ![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview6.png)
 
@@ -62,7 +62,7 @@ Mobile Portrait version
 ![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview7.png)
 ![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview8.png)
 
-Mobile Landscape | Table version
+Mobile Landscape | Tablet version
 
 ![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview9.png)
 ![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview10.png)
