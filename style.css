@@ -7,6 +7,7 @@
   --color-white: #202020;
   --color-red: #fff;
   --color-icon: #fff;
+  --color-text: #eaeaea;
 }
 :root {
   /* colors */
@@ -16,6 +17,8 @@
   --color-greyDark: #606060;
   --color-red: #ff0000;
   --color-icon: #000;
+  --color-text: #2e2e2e;
+  --color-card: #2e2e2e;
 
   /* fonts weight and sizes */
   --font-main: 14px;
@@ -26,6 +29,12 @@
   --margin-1: 10px;
   --margin-2: 15px;
   --margin-3: 20px;
+}
+
+#content,
+#authorize-button,
+#signout-button {
+  display: none;
 }
 
 /* universal Selector */
@@ -41,10 +50,17 @@
   font-size: var(--font-icons);
 }
 /* Tag Selectors */
+h4,
+h6 {
+  color: var(--color-greyDark);
+}
+.li {
+  type: none;
+}
+/* Class Selectors */
 .container-fluid {
   background-color: var(--color-white);
 }
-/* Class Selectors */
 .topBar {
   /* padding-left: var(--margin-1);
   padding-right: var(--margin-1); */
@@ -66,7 +82,10 @@
   margin-bottom: var(--margin-2);
 }
 .card {
-  color: var(--color-greyDark);
+  color: var(--color-card);
+}
+.text-d {
+  color: var(--color-text);
 }
 .card-title {
   font-size: var(--font-main);
@@ -99,6 +118,8 @@
 }
 
 /* id selector */
-#modeToggle {
+#modeToggle,
+#menu,
+#logo {
   cursor: pointer;
 }
