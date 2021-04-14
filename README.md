@@ -1,6 +1,12 @@
 # YT-clone
+  > 13th to 14th April
 
-### Problem statement:
+## Hosted URLs
+  > https://yt-clone-jpc8.netlify.app
+  
+  > https://jpc8.github.io/YT-clone
+
+## Problem statement:
 
 YOUTUBE CLONE - Create a web app to clone the youtube web application.
 
@@ -14,7 +20,7 @@ YOUTUBE CLONE - Create a web app to clone the youtube web application.
 
 - [X] Create functionality for topic based searching and search for playlists or channels
 
-- [X] Create functionality to create and update a playlist.
+- [ ] Create functionality to create and update a playlist.
 
 ### Useful links and learning resources:
 
@@ -24,4 +30,31 @@ Api info: https://developers.google.com/youtube/v3/sample_requests
 
 ## Previews:
 
-![site]()
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview1.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview2.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview3.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview4.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview5.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview6.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview7.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview8.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview9.png)
+
+
+![site](https://github.com/JPC8/YT-clone/blob/main/output/Preview10.png)
