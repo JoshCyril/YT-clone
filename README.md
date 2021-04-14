@@ -1,11 +1,9 @@
 # YT-clone
   > 13th to 14th April
 
-## Hosted URLs
+## Hosted URL
   > https://yt-clone-jpc8.netlify.app
   
-  > https://jpc8.github.io/YT-clone
-
 ## Problem statement:
 
 YOUTUBE CLONE - Create a web app to clone the youtube web application.
