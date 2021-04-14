@@ -1,7 +1,5 @@
 # YT-clone
 
-Just cloning yt
-
 ### Problem statement:
 
 YOUTUBE CLONE - Create a web app to clone the youtube web application.
@@ -23,3 +21,7 @@ YOUTUBE CLONE - Create a web app to clone the youtube web application.
 Getting started : https://developers.google.com/youtube/v3/guides/auth/client-side-web-apps
 
 Api info: https://developers.google.com/youtube/v3/sample_requests
+
+## Previews:
+
+![site]()
