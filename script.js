@@ -111,7 +111,9 @@ function getChannel(channel) {
           channel.statistics.videoCount
         )}</li>
       </ul>
-      <p class='text-justify text-d'>${channel.snippet.description}</p>
+      <p class='text-justify text-d d-none d-md-block desc'>${
+        channel.snippet.description
+      }</p>
       <hr>
       <p class="btn btn-outline-info text-d"><b>Country: </b>${
         channel.snippet.country
